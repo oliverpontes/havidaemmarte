@@ -9,6 +9,9 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+
+Bora Bugar o site?
+
 <div class="center">
   <div class="ear ear--left"></div>
   <div class="ear ear--right"></div>
