@@ -49,7 +49,7 @@
             <button class="btn-block-outline btn-primary btn-lg" bordas> <span class="Vic-plus" ></span> Ver Mais</button>
         </div>
         <div class="col text-center p-4 ml-3">
-            <h3>Os arcos de Hunter x Hunter</h3>
+            <h3>Eu amo o professor regi</h3>
             <hr />
             <p>Assim como é feito com outros mangás, Hunter x Hunter tem sua trama dividida em arcos, linhas de histórias que são contadas durante um determinado número de episódios. </p>
             <button class="btn-block-outline btn-primary btn-lg" > <span class="Vic-plus" ></span> Ver Mais</button>
