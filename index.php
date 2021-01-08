@@ -69,6 +69,13 @@ if ($pg) {
             
 
             break;
+         case 'planet':
+            //incluir a página contato
+           
+            include_once './paginas/planet.php';
+            
+
+            break;
         
 
 
